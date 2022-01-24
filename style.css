@@ -59,12 +59,49 @@ a, .our__package h5 {
     box-shadow: -5px -5px 10px -5px rgba(151, 151, 151, 0.75) !important;
 }
 
-.toast__segment{
+.toast__segment {
     border-left: 5px solid #3f87f5 !important;
 }
 
-.carousel-caption a:hover{
+.carousel-caption a:hover {
     background-color: transparent;
     color: white;
     border: 1px solid white;
 }
+
+.bonus__section {
+    height: 100vh;
+    width: 100%;
+    background-color: #234eff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.bonus__section::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-image: url(images/bonus_section/Vector\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: -1;
+}
+
+.section__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.section__user{}
