@@ -42,7 +42,7 @@ a, .our__package h5 {
     z-index: 2;
 }
 
-.our__package .card-body button, .our__package .card, .happy__clients .hover__shadow {
+.our__package .card-body button, .our__package .card, .happy__clients .hover__shadow, .carousel-caption a {
     transition: all 0.5s linear;
 }
 
@@ -57,4 +57,14 @@ a, .our__package h5 {
 
 .hover__shadow:hover {
     box-shadow: -5px -5px 10px -5px rgba(151, 151, 151, 0.75) !important;
+}
+
+.toast__segment{
+    border-left: 5px solid #3f87f5 !important;
+}
+
+.carousel-caption a:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
 }
