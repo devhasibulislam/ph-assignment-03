@@ -1,0 +1,15 @@
+Assignment 3 requirements:
+* convention center github repo
+* open convention-center.fig
+* not using same nav name
+* menu optional
+* slider or carousel must (3/4)
+* equivalent slider (must)
+* button must link with a website for jumping
+* Every moment is precious (optional)
+* Our Package
+* Happy Clients Says (optional)
+* Frequently Asked Quesitons
+* Footer, appstore and playstore jump link must
+* responsive must (mobile and pc must)
+* tablet responsive (optional)
