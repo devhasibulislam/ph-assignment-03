@@ -6,11 +6,11 @@
     font-family: 'Roboto', sans-serif;
 */
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p {
     font-family: 'Poppins', sans-serif !important;
 }
 
-a, .our__package h5{
+a, .our__package h5 {
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -18,14 +18,15 @@ a, .our__package h5{
     margin-top: 5rem;
 }
 
-.our__package h3{
+.our__package h3 {
     font-family: 'Manrope', sans-serif !important;
 }
 
-.carousel-item{
+.carousel-item {
     position: relative;
 }
-.carousel-item::after{
+
+.carousel-item::after {
     content: "";
     position: absolute;
     top: 0;
@@ -37,6 +38,23 @@ a, .our__package h5{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel-item .carousel-caption{
+.carousel-item .carousel-caption {
     z-index: 2;
+}
+
+.our__package .card-body button, .our__package .card, .happy__clients .hover__shadow {
+    transition: all 0.5s linear;
+}
+
+.our__package .card-body button:hover {
+    background-color: black;
+    border: none;
+}
+
+.our__package .card-body button:hover span {
+    color: white !important;
+}
+
+.hover__shadow:hover {
+    box-shadow: -5px -5px 10px -5px rgba(151, 151, 151, 0.75) !important;
 }
